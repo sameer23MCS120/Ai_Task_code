@@ -32,7 +32,7 @@ graph TD
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/rag-chatbot.git
+git clone https://github.com/sameer23MCS120/Ai_Task_code.git
 cd rag-chatbot
 ```
 
