@@ -1,7 +1,7 @@
 
 # 🧠 Retrieval-Augmented Generation (RAG) Chatbot
 
-This project implements a **RAG (Retrieval-Augmented Generation)** pipeline that combines traditional information retrieval with generative language modeling to build an intelligent chatbot capable of answering user queries with context-aware and document-grounded responses.
+This project implements a RAG (Retrieval-Augmented Generation) pipeline that combines traditional information retrieval with generative language modeling to build an intelligent chatbot capable of answering user queries with context-aware and document-grounded responses.
 
 ---
 
@@ -18,12 +18,12 @@ graph TD
     G --> H[Streaming Response]
 ```
 
-- **Preprocessing**: Raw documents are cleaned and chunked for consistency.
-- **Embeddings**: Chunks are converted into dense vector representations.
-- **Vector Store**: Embeddings are stored using FAISS or Chroma for fast similarity search.
-- **Retriever**: Top-k similar documents are retrieved for any user query.
-- **LLM**: Retrieved docs + query are passed to a language model to generate a response.
-- **Streaming**: Chatbot responds with streamed, token-by-token replies.
+- Preprocessing: Raw documents are cleaned and chunked for consistency.
+- Embeddings: Chunks are converted into dense vector representations.
+- Vector Store: Embeddings are stored using FAISS or Chroma for fast similarity search.
+- Retriever: Top-k similar documents are retrieved for any user query.
+- LLM: Retrieved docs + query are passed to a language model to generate a response.
+- Streaming: Chatbot responds with streamed, token-by-token replies.
 
 ---
 
@@ -125,13 +125,7 @@ rag-chatbot/
 │
 ├── data/                   # Input documents
 ├── faiss_index/            # Stored vector DB
-├── Untitled19.ipynb        # Main notebook
+├── Ai_Task.ipynb        # Main notebook
 ├── requirements.txt        # Project dependencies
 └── README.md               # This file
-```
-
----
-
-## 🛡️ License
-
-MIT License – Feel free to use, modify, and share!
+``
